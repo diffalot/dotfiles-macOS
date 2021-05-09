@@ -1,33 +1,81 @@
-colors:
-  name: Ashes (dark)
-  author: Chris Kempson
-  primary:
-    background: "#1c2023"
-    foreground: "#c7ccd1"
-  cursor:
-    text: "#1c2023"
-    cursor: "#c7ccd1"
-  normal:
-    black: "#1c2023"
-    red: "#c7ae95"
-    green: "#95c7ae"
-    yellow: "#aec795"
-    blue: "#ae95c7"
-    magenta: "#c795ae"
-    cyan: "#95aec7"
-    white: "#c7ccd1"
-  bright:
-    black: "#747c84"
-    red: "#c7ae95"
-    green: "#95c7ae"
-    yellow: "#aec795"
-    blue: "#ae95c7"
-    magenta: "#c795ae"
-    cyan: "#95aec7"
-    white: "#f3f4f5"
+env:
+  TERM: screen-256color
+scrolling:
+  history: 0
 
-# Store colorschemes down here, commented out, to save them
+# Very much a Professional Programmer here: The italics undercut it nicely
+font:
+  size: 14
+  normal:
+    family: JetBrainsMono Nerd Font
+    style: Regular
+  bold:
+    family: JetBrainsMono Nerd Font
+    style: Bold Italic
+  italic:
+    family: FantasqueSansMono Nerd Font
+    style: Italic
+
+# Very typwriter like, makes me feel like an old novelist
+#font:
+#  size: 15
+#  normal:
+#    family: Courier Prime
+#    style: Regular
+#  bold:
+#    family: Courier Prime
+#    style: Bold
+#  italic:
+#    family: FantasqueSansMono Nerd Font
+#    style: Italic
+
+# yes I do my computering on a mac
+#font:
+#  size: 15
+#  normal:
+#    family: MesloLGL Nerd Font
+#    style: Regular
+#  bold:
+#    family: MesloLGL Nerd Font
+#    style: Bold
+#  italic:
+#    family: MesloLGL Nerd Font
+#    style: Italic
+
+# A deep blue slate with blue and yellow highlights
+colors:
+  primary:
+    background: '#161616'
+    foreground: '#e4e4e4'
+  cursor:
+    text: '#feffff'
+    cursor: '#ffb472'
+  normal:
+    black: '#a3a3a3'
+    red: '#e98885'
+    green: '#a3c38b'
+    yellow: '#ffc68d'
+    blue: '#a6cae2'
+    magenta: '#e7cdfb'
+    cyan: '#00a69f'
+    white: '#e4e4e4'
+  bright:
+    black: '#c8c8c8'
+    red: '#ffb2b0'
+    green: '#c8e2b9'
+    yellow: '#ffe1af'
+    blue: '#bddff7'
+    magenta: '#fce2ff'
+    cyan: '#0bbdb6'
+    white: '#feffff'
+  selection:
+    text: '#5963a2'
+    background: '#f6f6f6'
+
+# Store colorschemes commented out, to save them
 # npx alacritty-themes will replace them
+
+# Light and easy on the eyes
 #colors:
 #  name: Ivory Light
 #  author: Baskerville
@@ -55,6 +103,8 @@ colors:
 #    magenta: "#a03196"
 #    cyan: "#007693"
 #    white: "#282c36"
+
+# Grey and red on slate, stoney looking
 #colors:
 #  name: Ashes (dark)
 #  author: Chris Kempson
@@ -82,95 +132,33 @@ colors:
 #    magenta: "#c795ae"
 #    cyan: "#95aec7"
 #    white: "#f3f4f5"
-env:
 
-  TERM: screen-256color
-  # Window decorations
-  #
-  # Values for `decorations`:
-  #     - full: Borders and title bar
-  #     - none: Neither borders nor title bar
-  #
-  # Values for `decorations` (macOS only):
-  #     - transparent: Title bar, transparent background and title bar buttons
-  #     - buttonless: Title bar, transparent background and no title bar buttons
-  decorations: transparent
-  # Startup Mode (changes require restart)
-  #
-  # Values for `startup_mode`:
-  #   - Windowed
-  #   - Maximized
-  #   - Fullscreen
-  #
-  # Values for `startup_mode` (macOS only):
-  #   - SimpleFullscreen
-  startup_mode: Fullscreen
-  # Window title
-  #title: Alacritty
-  # Allow terminal applications to change Alacritty's window title.
-  #dynamic_title: true
-  # Window class (Linux/BSD only):
-  #
-  #class:
-  # Application instance name
-  #instance: Alacritty
-  # General application class
-  #general: Alacritty
-  # GTK theme variant (Linux/BSD only)
-  #
-  # Override the variant of the GTK theme. Commonly supported values are `dark`
-  # and `light`. Set this to `None` to use the default theme variant.
-  #gtk_theme_variant: None
-
-scrolling:
-  # Maximum number of lines in the scrollback buffer.
-  # Specifying '0' will disable scrolling.
-  #history: 10000
-  history: 0
-  # Scrolling distance multiplier.
-  #multiplier: 3
-font:
-  normal:
-    family: JetBrainsMono Nerd Font
-    style: Regular
-  bold:
-    family: JetBrainsMono Nerd Font
-    style: Bold Italic
-  italic:
-    family: FantasqueSansMono Nerd Font
-    style: Italic
-
-  # Point size of the font
-  size: 13
-  #font:
-  #  normal:
-  #    family: MesloLGL Nerd Font
-  #    style: Regular
-  #  bold:
-  #    family: MesloLGL Nerd Font
-  #    style: Bold
-  #  italic:
-  #    family: MesloLGL Nerd Font
-  #    style: Italic
-  # Point size of the font
-  #size: 15
-
-#font:
-#    normal:
-#        family: ProFontIIx Nerd Font
-#        style: Book
-#    size: 13.5
-#font:
-#    normal:
-#        family: Hurmit Nerd Font Mono
-#        style: medium
-#    bold:
-#        family: Hurmit Nerd Font Mono
-#        style: bold
-#    italic:
-#        family: Hurmit Nerd Font Mono
-#        style: bold_italic
-#
-#    # Point size of the font
-#    size: 13.5
-#
+# A deep blue slate with blue and yellow highlights
+#colors:
+#  primary:
+#    background: '#161616'
+#    foreground: '#e4e4e4'
+#  cursor:
+#    text: '#feffff'
+#    cursor: '#ffb472'
+#  normal:
+#    black: '#a3a3a3'
+#    red: '#e98885'
+#    green: '#a3c38b'
+#    yellow: '#ffc68d'
+#    blue: '#a6cae2'
+#    magenta: '#e7cdfb'
+#    cyan: '#00a69f'
+#    white: '#e4e4e4'
+#  bright:
+#    black: '#c8c8c8'
+#    red: '#ffb2b0'
+#    green: '#c8e2b9'
+#    yellow: '#ffe1af'
+#    blue: '#bddff7'
+#    magenta: '#fce2ff'
+#    cyan: '#0bbdb6'
+#    white: '#feffff'
+#  selection:
+#    text: '#5963a2'
+#    background: '#f6f6f6'
