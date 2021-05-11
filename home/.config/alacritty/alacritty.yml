@@ -28,7 +28,6 @@ font:
 #  italic:
 #    family: FantasqueSansMono Nerd Font
 #    style: Italic
-
 # yes I do my computering on a mac
 #font:
 #  size: 15
@@ -41,40 +40,37 @@ font:
 #  italic:
 #    family: MesloLGL Nerd Font
 #    style: Italic
-
 # A deep blue slate with blue and yellow highlights
 colors:
+  name: Default (light)
+  author: Chris Kempson
   primary:
-    background: '#161616'
-    foreground: '#e4e4e4'
+    background: "#f5f5f5"
+    foreground: "#303030"
   cursor:
-    text: '#feffff'
-    cursor: '#ffb472'
+    text: "#f5f5f5"
+    cursor: "#303030"
   normal:
-    black: '#a3a3a3'
-    red: '#e98885'
-    green: '#a3c38b'
-    yellow: '#ffc68d'
-    blue: '#a6cae2'
-    magenta: '#e7cdfb'
-    cyan: '#00a69f'
-    white: '#e4e4e4'
+    black: "#151515"
+    red: "#ac4142"
+    green: "#90a959"
+    yellow: "#f4bf75"
+    blue: "#6a9fb5"
+    magenta: "#aa759f"
+    cyan: "#75b5aa"
+    white: "#d0d0d0"
   bright:
-    black: '#c8c8c8'
-    red: '#ffb2b0'
-    green: '#c8e2b9'
-    yellow: '#ffe1af'
-    blue: '#bddff7'
-    magenta: '#fce2ff'
-    cyan: '#0bbdb6'
-    white: '#feffff'
-  selection:
-    text: '#5963a2'
-    background: '#f6f6f6'
+    black: "#505050"
+    red: "#ac4142"
+    green: "#90a959"
+    yellow: "#f4bf75"
+    blue: "#6a9fb5"
+    magenta: "#aa759f"
+    cyan: "#75b5aa"
+    white: "#f5f5f5"
 
 # Store colorschemes commented out, to save them
 # npx alacritty-themes will replace them
-
 # Light and easy on the eyes
 #colors:
 #  name: Ivory Light
@@ -103,7 +99,6 @@ colors:
 #    magenta: "#a03196"
 #    cyan: "#007693"
 #    white: "#282c36"
-
 # Grey and red on slate, stoney looking
 #colors:
 #  name: Ashes (dark)
@@ -132,7 +127,6 @@ colors:
 #    magenta: "#c795ae"
 #    cyan: "#95aec7"
 #    white: "#f3f4f5"
-
 # A deep blue slate with blue and yellow highlights
 #colors:
 #  primary:
